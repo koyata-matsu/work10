@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”description“ content=“サイトの説明“>
+    <meta name=“robots” content=“noindex”>
+    <title>サイトのタイトル</title>
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/smart.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.css" />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'ueq2bgd',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <header class="inner">
+        <div>
+            <h1>Ton <span class="blue">B</span>ébé</h1>
+            <ul>
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#" class="blue">無料で始める</a></li>
+                <li><a href="#" class="blue">ログイン</a></li>
+                <li><a href="#" class="back_y">ドナーを探す</a></li>
+            </ul>
+        </div>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="#">無料で始める</a>
+                    </li>
+                    <li>
+                        <a href="#">ログイン</a>
+                    </li>
+                    <li>
+                        <a href="#">ドナーを探す</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="kv inner">
+        <div class="kv_top">
+            <img src="./assets/images/kv.png" alt="">
+            <p>妊娠を望む</p>
+            <p>全ての方へ</p>
+        </div>
+        <div>
+            <h2 class="blue">
+                ドナー登録者<br>
+                <span>4000</span>人突破！
+            </h2>
+            <h3>
+                精子提供<br>
+                <span>マッチングサービス</span>
+            </h3>
+            <p>Ton Bébéは、精子提供で妊娠を望む全ての方により良い選択をしていただくための精子提供マッチングサービスです。</p>
+            <a href="#" class="back_b">無料ではじめる</a>
+            <a href="#" class="blue">会員の方はこちら</a>
+        </div>
+    </section>
+    <section class="doner">
+        <div class="inner">
+            <div class="title_b">
+                <h2 class="blue">性病検査済みおすすめドナー</h2>
+                <span></span>
+            </div>
+            <div class="swiper-container">
+                <!-- スライドメニュー -->
+                <div class="swiper-wrapper">
+                    <!-- スライドメニュー内容を個々に追加してください -->
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./assets/images/doner.png" alt="">
+                        </div>
+                        <div>
+                            <h3>T.Y<span>（30歳 / O型）</span></h3>
+                            <p>170cm / 65.0kg</p>
+                            <div class="doner_ex">
+                                <p class="blue">性病検査</p>
+                                <span class="back_b">A</span>
+                            </div>
+                            <div class="doner_ex">
+                                <p class="blue">精子品質</p>
+                                <span class="back_b">D</span>
+                            </div>
+                            <a href="#" class="back_y">詳細を見る</a>
+                            <span>
+                                最終ログイン<br>24時間以内
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./assets/images/doner.png" alt="">
+                        </div>
+                        <div>
+                            <h3>T.Y<span>（30歳 / O型）</span></h3>
+                            <p>170cm / 65.0kg</p>
+                            <div class="doner_ex">
+                                <p class="blue">性病検査</p>
+                                <span class="back_b">◎</span>
+                            </div>
+                            <div class="doner_ex">
+                                <p class="blue">精子品質</p>
+                                <span class="back_b">D</span>
+                            </div>
+                            <a href="#" class="back_y">詳細を見る</a>
+                            <span>
+                                最終ログイン<br>24時間以内
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./assets/images/doner.png" alt="">
+                        </div>
+                        <div>
+                            <h3>T.Y<span>（30歳 / O型）</span></h3>
+                            <p>170cm / 65.0kg</p>
+                            <div class="doner_ex">
+                                <p class="blue">性病検査</p>
+                                <span class="back_b">◎</span>
+                            </div>
+                            <div class="doner_ex">
+                                <p class="blue">精子品質</p>
+                                <span class="back_b">D</span>
+                            </div>
+                            <a href="#" class="back_y">詳細を見る</a>
+                            <span>
+                                最終ログイン<br>24時間以内
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./assets/images/doner.png" alt="">
+                        </div>
+                        <div>
+                            <h3>T.Y<span>（30歳 / O型）</span></h3>
+                            <p>170cm / 65.0kg</p>
+                            <div class="doner_ex">
+                                <p class="blue">性病検査</p>
+                                <span class="back_b">◎</span>
+                            </div>
+                            <div class="doner_ex">
+                                <p class="blue">精子品質</p>
+                                <span class="back_b">D</span>
+                            </div>
+                            <a href="#" class="back_y">詳細を見る</a>
+                            <span>
+                                最終ログイン<br>24時間以内
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="./assets/images/doner.png" alt="">
+                        </div>
+                        <div>
+                            <h3>T.Y<span>（30歳 / O型）</span></h3>
+                            <p>170cm / 65.0kg</p>
+                            <div class="doner_ex">
+                                <p class="blue">性病検査</p>
+                                <span class="back_b">◎</span>
+                            </div>
+                            <div class="doner_ex">
+                                <p class="blue">精子品質</p>
+                                <span class="back_b">D</span>
+                            </div>
+                            <a href="#" class="back_y">詳細を見る</a>
+                            <span>
+                                最終ログイン<br>24時間以内
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- スライドのページネーション表示 -->
+                <div class="swiper-pagination"></div>
+                <!-- 「次へ」や「戻る」のアイコン表示 -->
+
+                <!-- スクロールバーの表示 -->
+            </div>
+        </div>
+        <div class="doner_foot back_b">
+            <div class="inner">
+                <h4>
+                    よく検索されている<br>人気キーワード一覧
+                </h4>
+                <span class="blue">身長170cm以上</span>
+                <span class="blue">30代〜40代</span>
+                <span class="blue">大卒</span>
+                <span class="blue">性病検査済み</span>
+                <span class="blue">タイミング法</span>
+                <span class="blue">謝礼不要</span>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="blog inner">
+        <div class="title_b">
+            <h2 class="blue">Ton Bébéブログ</h2>
+            <span></span>
+        </div>
+        <p>Ton Bébéブログではユーザーインタビューを多数掲載しています。</p>
+        <ul class="tab">
+            <li class="active"><a href="#tab1" class="pink  back_p">ドニー（女性）</a></li>
+            <li><a href="#tab2">ドナー（男性）</a></li>
+        </ul>
+        <div class="tabContents active" id="tab1">
+            <ul>
+                <li>
+                    <img src="./assets/images/smaple1.png" alt="">
+                    <time>2021.01.01</time>
+                    <h3 class="pink">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+                    <a href="#">もっと見る</a>
+                </li>
+                <li>
+                    <img src="./assets/images/smaple1.png" alt="">
+                    <time>2021.01.01</time>
+                    <h3 class="pink">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+                    <a href="#">インタビューを受けるには？</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="tabContents" id="tab2">
+            <ul>
+                <li>
+                    <img src="./assets/images/smaple1.png" alt="">
+                    <time>2021.01.01</time>
+                    <h3>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+                    <a href="#">もっと見る</a>
+                </li>
+                <li>
+                    <img src="./assets/images/smaple1.png" alt="">
+                    <time>2021.01.01</time>
+                    <h3>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…</p>
+                    <a href="#">インタビューを受けるには？</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="about inner">
+        <div class="title_b">
+            <h2 class="blue">Ton Bébéのご利用について</h2>
+            <span></span>
+        </div>
+        <p class="sub-text">Ton Bébéは妊娠を望む女性により多くの選択肢を提供するため、精子ドナーおよび精子提供ボランティアの方の登録を広く受け付けています。</p>
+        <ul>
+            <li>
+                <img src="./assets/images/smaple1.png" alt="">
+                <p>精子提供の流れ</p>
+            </li>
+            <li>
+                <img src="./assets/images/smaple2.png" alt="">
+                <p>精子提供の方法</p>
+            </li>
+            <li>
+                <img src="./assets/images/smaple3.png" alt="">
+                <p>ドナーになるには</p>
+            </li>
+        </ul>
+    </section>
+    <section class="reason inner">
+        <div class="inner">
+            <div class="title_b">
+                <h2 class="blue">Ton Bébéを選ぶ理由</h2>
+                <span></span>
+            </div>
+            <ul>
+                <li>
+                    <div>
+                        <h3 class="blue">選ぶ理由
+                            <span>01</span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h4 class="blue"><a href="#">見出し見出し見出し見出し見出し見出し見出し</a></h4>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                    <span class="box"></span>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="blue">選ぶ理由
+                            <span>02</span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h4 class="blue"><a href="#">見出し見出し見出し見出し見出し見出し見出し</a></h4>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                    <span class="box"></span>
+                </li>
+                <li>
+                    <div>
+                        <h3 class="blue">選ぶ理由
+                            <span>03</span>
+                        </h3>
+                    </div>
+                    <div>
+                        <h4 class="blue"><a href="#">見出し見出し見出し見出し見出し見出し見出し</a></h4>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                    <span class="box"></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="review">
+        <div class="inner">
+            <div class="title_b">
+                <h2>Ton Bébéのご利用について</h2>
+                <span></span>
+            </div>
+            <ul>
+                <li>
+                    <h3>Y.I様</h3>
+                    <span>ドナー</span>
+                    <p>ご協力していただいたドナーの皆様が誠実な方だったことが印象に残っています。トラブルもなく、精子提供をうけることができました。</p>
+                </li>
+                <li>
+                    <h3>Y.I様</h3>
+                    <span>ドナー</span>
+                    <p>ご協力していただいたドナーの皆様が誠実な方だったことが印象に残っています。トラブルもなく、精子提供をうけることができました。</p>
+                </li>
+                <li>
+                    <h3>Y.I様</h3>
+                    <span>ドナー</span>
+                    <p>ご協力していただいたドナーの皆様が誠実な方だったことが印象に残っています。トラブルもなく、精子提供をうけることができました。</p>
+                </li>
+                <li>
+                    <h3>Y.I様</h3>
+                    <span>ドナー</span>
+                    <p>ご協力していただいたドナーの皆様が誠実な方だったことが印象に残っています。トラブルもなく、精子提供をうけることができました。</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <footer class="back_b">
+        <div class="inner">
+            <h2>Ton Bébé</h2>
+            <ul>
+                <li><a href="#">利用規約</a></li>
+                <li><a href="#">プライバシーポリシー</a></li>
+                <li><a href="#">特定商に基づく表記</a></li>
+                <li><a href="#">ブログ</a></li>
+                <li><a href="#">ヘルプ</a></li>
+            </ul>
+            <p>©2019-2021 Ton Bébé</p>
+        </div>
+
+    </footer>
+    <script src="./assets/js/swiper-bundle.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
